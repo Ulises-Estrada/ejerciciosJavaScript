@@ -5,7 +5,23 @@ import {
   repetirTexto,
 } from "./funcionesEjercicios.js";
 
-contarCaracteres("Hola Mundo");
-arrayTextos("hola que tal", " ");
-recortarTexto("Hola Mundo", 4);
-repetirTexto("Hola Mundo", 3);
+try {
+  contarCaracteres(true);
+} catch (error) {
+  console.error(error.message);
+}
+try {
+  arrayTextos("hola que tal", " ");
+} catch (error) {
+  console.error(error.message);
+}
+try {
+  recortarTexto("Hola Mundo", 4);
+} catch (error) {
+  console.error(error.message);
+}
+try {
+  repetirTexto("Hola Mundo", 3);
+} catch (error) {
+  console.error(error.message);
+}
