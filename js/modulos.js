@@ -6,7 +6,7 @@ import {
 } from "./funcionesEjercicios.js";
 
 try {
-  contarCaracteres(true);
+  contarCaracteres("Hola Mundo");
 } catch (error) {
   console.error(error.message);
 }
